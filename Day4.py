@@ -1,5 +1,4 @@
 def next_gap(gap):
-    """Helper function to calculate the next gap size."""
     if gap <= 1:
         return 0
     return (gap // 2) + (gap % 2)
